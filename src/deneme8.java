@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class deneme8 {
 
 	public static void main (String[] args) { 
- // Mantýksal Koþul
+ // Mantýksal Koþul   
  String sys_kul_adý = "yazýlýmbilimi";
  String parola = "12345";
  
