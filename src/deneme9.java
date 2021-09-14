@@ -21,8 +21,32 @@ public class deneme9 {
 		
 	switch(islem) {
 	case 1:
-		
+		System.out.println("Bakiyeniz " + bakiye +" tl dir");
+		break;
+	case 2:
+		System.out.println("Ne kadar yatýracaksýnýz?");
+	int miktar = scan.nextInt();
 	
+	bakiye +=miktar;
+	System.out.println("Bakiyeniz " + bakiye +" tl dir");
+	break;
+	
+	case 3:
+		System.out.println("Ne kadar çekeceksiniz?");
+		miktar = scan.nextInt();
+		
+		bakiye -=miktar;
+		
+		System.out.println("Bakiyeniz " + bakiye +" tl dir");
+		break;
+	case 4:
+		System.out.println("Sistemen Çýkýlýyor...");
+	    break;
+	default :
+		System.out.println("Geçersiz Ýþlem..");
+	   break;
+	
+			
 	}
 	}
 }
